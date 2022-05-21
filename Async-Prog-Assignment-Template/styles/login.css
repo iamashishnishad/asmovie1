@@ -1,0 +1,33 @@
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    border: 6px solid black;
+    height: 70px;
+    width: 100%;
+}
+
+#navbar>div{
+  font-size: larger;
+  font-weight: bolder;
+  margin-right: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+#login-form-div>form{
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+
+}
+p{
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 70px;
+}
+input{
+    font-size: larger;
+    height: 40px;
+}
